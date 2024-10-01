@@ -1,0 +1,2 @@
+# list
+inflix config ls

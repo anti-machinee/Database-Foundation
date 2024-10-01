@@ -1,0 +1,15 @@
+influx auth create       \
+  --org ${ORG}         \
+  --user ${USERNAME}        \
+  --read-authorizations  \
+  --write-authorizations \
+  --read-buckets         \
+  --write-buckets        \
+  --read-dashboards      \
+  --write-dashboards     \
+  --read-tasks           \
+  --write-tasks          \
+  --read-telegrafs       \
+  --write-telegrafs      \
+  --read-users           \
+  --write-users

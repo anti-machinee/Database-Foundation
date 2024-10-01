@@ -1,0 +1,1 @@
+influx write -t <token> -b BUCKET -o org-name <LINE PROTOCOL>

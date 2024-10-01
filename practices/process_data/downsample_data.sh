@@ -1,0 +1,5 @@
+from(bucket: "get-started")
+    |> range(start: 2022-01-01T14:00:00Z, stop: 2022-01-01T20:00:01Z)
+    |> filter(fn: (r) => r._measurement == "home")
+    |> filter(fn: (r) => r._field == "temp")
+    |> aggregateWindow(every: 2h, fn: mean)

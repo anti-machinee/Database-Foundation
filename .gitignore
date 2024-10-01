@@ -1,0 +1,14 @@
+# private
+InfluxUI-PG02
+
+# local
+opensources
+
+# vscode
+.vscode
+
+# compile
+__pycache__
+
+# docs
+*.pdf
